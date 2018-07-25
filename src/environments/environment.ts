@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+	production: false,
+
+	firbaseConfiq: {
+		apiKey: "AIzaSyATy-PlmVLzKmlF39UQaPiuUOMeEL-ZdZk",
+		authDomain: "bundesliga-tippspiel.firebaseapp.com",
+		projectId: "bundesliga-tippspiel",
+		storageBucket: "bundesliga-tippspiel.appspot.com"
+	}
 };
 
 /*
